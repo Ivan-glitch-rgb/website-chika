@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<title>Femme quaro</title>
+ 	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+ 	<section>
+  		<div class="circle"></div>
+  	<header>
+   		<a href="#" class="logo"><img src="logo.png" width="100px" height="30px" class="logo"></a>
+   		<ul>
+	    	<li><a href="#">Heloo</a></li>
+			<li><a href="#">Neuro</a></li>
+			<li><a href="#">know Me</a></li>
+	   </ul>
+  	</header>
+  	<div class="content">
+   		<div class="textBox">
+	    	<h2>It's not just a love for me<br>you are <span>eternique</span></h2>
+	    	<p>Definition: A love so special and everlasting that it stands out as one-of-a-kind, transcending time and boundaries.
+	    	haii my love, im sorry im not a good boyfriend for you butt i'll try to, soo aku cuma bisa kasih apa yang aku punya saat ini dan aku akan terus berjuang yaa, ohh ya dan ada voice note dari aku di website ini jasi jangan lupa di denger ya cantikkuuu
+	    	ohh jangan lupa dengerin vn dibawah ya sayangg</p>
+	    	<footer>from your bf ivan</footer>
+	   </div>
+  	 	<div class="imgBox">
+    		<img src="jpg.1.chika.jpg" class="logo">
+   		</div>
+
+  </div>
+	  <ul class="thumb">
+	   <li><img src="chk.jpg" onclick="imgSlider('chk.jpg');changeCircleColor('#000000')"></li>
+	   <li><img src="chk2.jpg" onclick="imgSlider('chk2.jpg');changeCircleColor('#A9A9A9')"></li>
+	   <li><img src="chk3.jpg" onclick="imgSlider('chk3.jpg');changeCircleColor('#DAA520')"></li>
+	  </ul>
+
+	  <ul class="icon">
+	   <li><a href="#"><img src="facebook.png" alt="facebook"></li>
+	   <li><a href="#"><img src="instagram.png" alt="instagram"></li>
+	   <li><a href="#"><img src="twitter.png" alt="twitter"></li>
+	  </ul>
+  </section>
+
+  <audio controls>
+  <source src="audio.1.mp3" type="audio/mpeg">
+</audio>
+
+  		<script type="text/javascript">
+	   function imgSlider(anything){
+	   document.querySelector('.ACURA').src = anything;
+	   }
+
+	   function changeCircleColor(color){
+	   const circle = document.querySelector('.circle');
+	   circle.style.background = color;
+	   }
+  </script>
+
+</body>
+</html>
